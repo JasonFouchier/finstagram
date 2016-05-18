@@ -1,0 +1,12 @@
+
+    <% if current_user %>
+      <%= current_user.username %>
+      <a href="/logout">Logout</a>
+    <% else %>
+      <a href="/login">Login</a>
+      <a href="/signup">Signup</a>
+    <% end %>
+  
+<main role="main">
+    <%= erb(:'shared/post', {locals: {post: @post, allow_new_comment: true}}) %>
+</main>

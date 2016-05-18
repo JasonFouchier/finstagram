@@ -1,0 +1,27 @@
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+    font-family: 'Indie Flower', cursive;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+main {
+    padding: 16px;
+    font-family: "Bangers", cursive;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 50%;
+}
+
+.photo img {
+    border-radius: 10%;
+}
+
